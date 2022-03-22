@@ -11,6 +11,9 @@ const GifGridItem = ({id, title, url}) => {
     )
 }
 
-GifGridItem.propTypes = {}
+GifGridItem.propTypes = {
+    title: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired
+}
 
 export default GifGridItem
