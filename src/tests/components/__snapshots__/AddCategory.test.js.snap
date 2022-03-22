@@ -5,7 +5,6 @@ exports[`Prueba en <AddCategory /> Debe mostrar el componente correctamente 1`] 
   onSubmit={[Function]}
 >
   <p />
-   //! descomentar para realizar las pruebas unitarias
   <input
     onChange={[Function]}
     type="text"
