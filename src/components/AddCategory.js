@@ -19,7 +19,7 @@ const AddCategory = ({setCategories}) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      
+      {/* //! descomentar el parrafo para realizar las pruebas unitarias */}
       <p>{inputValue}</p> 
       <input type="text" value={inputValue} onChange = {handleInputChange } />  
     </form>
